@@ -1,0 +1,29 @@
+.clients-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+
+.clients-list__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--primary-icon-color);
+    border-radius: 4px;
+    fill: var(--primary-icon-color);
+    transition-property: border, fill;
+    transition-duration: 250ms;
+    transition-timing-function: var(--primary-animation-function);
+    transition-delay: 0ms;
+    &:hover,
+    &:focus {
+        border: 1px solid var(--acent-color);
+        fill: var(--acent-color);
+    }
+}

@@ -1,0 +1,67 @@
+.btn {
+    display: inline-block;
+    margin: 0 auto;
+    background-color: var(--acent-color);
+    color: var(--primary-white-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    text-align: center;
+    cursor: pointer;
+    min-width: 200px;
+    height: 50px;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.subscription-btn::after {
+    content: "";
+    display: inline-block;
+    margin-left: 10px;
+    width: 24px;
+    height: 24px;
+    background-image: url(../images/iconsend.svg);
+    vertical-align: middle;
+}
+
+.btn_contact-form {
+    display: block;
+}
+
+.button-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+    padding-left: 0;
+}
+
+.button-list__item:not(:last-child) {
+    margin-right: 8px;
+}
+
+.button-list__btn {
+    background-color: var(--examples-button-color);
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding: 6px 22px;
+    border: none;
+    border-radius: 4px;
+    transition-property: background-color, color, box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: var(--primary-animation-function);
+    transition-delay: 0ms;
+        &:hover,
+        &:focus {
+            box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+            background-color: var(--acent-color);
+            color: var(--primary-white-color);
+            cursor: pointer;
+        }    
+}
