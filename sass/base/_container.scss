@@ -5,15 +5,16 @@
 //     padding-left: 15px;
 //     padding-right: 15px;
 // }
-.mobile-menu__container {
-    position: relative;
-    padding: 48px 25px;
-}
 
 @media screen and (min-width: 480px) {
     .container {
         width: 450px;
         margin: 0 auto;
+    }
+
+    .mobile-menu__container {
+        position: relative;
+        padding: 48px 25px;
     }
 }
 
@@ -26,6 +27,8 @@
 @media screen and (min-width: 1200px) {
     .container {
         width: 1200px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     
 }
