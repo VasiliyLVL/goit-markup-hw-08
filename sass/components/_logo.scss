@@ -7,6 +7,10 @@
     line-height: 1.17;
 }
 
+.logo__footer-studio {
+    color: var(--primary-white-color);
+}
+
 .logo__header-studio {
     color: var(--title-text-color);
 }
@@ -15,11 +19,22 @@
     .logo {
         margin-right: 88px;
     }
+
+    .logo-footer {
+        margin-right: 0;
+        text-align: center;
+    }
 }
 @media screen and (min-width: 1200px) {
     .logo {
+
         margin-right: 93px;
         font-size: 26px;
+        text-align: start;
+    }
+
+    .logo-footer {
+        margin-bottom: 20px;
     }
 }
 

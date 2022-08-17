@@ -83,11 +83,14 @@
     text-decoration: underline;
 }
 
+
+
 .contact-form__checkbox-label {
     display: flex;
     align-items: center;
     line-height: 1.71;
     color: var(--primary-text-color);
+    font-size: 12px;
     &::before {
         content: "";
         display: inline-block;
@@ -109,5 +112,11 @@
             background-color: var(--acent-color);
             border: none;
         }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .contact-form__checkbox-label {
+        font-size: 14px;
     }
 }
