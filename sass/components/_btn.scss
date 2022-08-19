@@ -1,37 +1,36 @@
 .btn {
-    display: block;
-    margin: 0 auto;
-    background-color: var(--acent-color);
-    color: var(--primary-white-color);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.06em;
-    text-align: center;
-    cursor: pointer;
-    width: 200px;
-    height: 50px;
-    border: 0;
-    border-radius: 4px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  display: block;
+  margin: 0 auto;
+  background-color: var(--acent-color);
+  color: var(--primary-white-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  text-align: center;
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .subscription-btn::after {
-    content: "";
-    display: inline-block;
-    margin-left: 10px;
-    width: 24px;
-    height: 24px;
-    background-image: url(../images/iconsend.svg);
-    vertical-align: middle;
+  content: "";
+  display: inline-block;
+  margin-left: 10px;
+  width: 24px;
+  height: 24px;
+  background-image: url(../images/iconsend.svg);
+  vertical-align: middle;
 }
 
 @media screen and (min-width: 1200px) {
-    .subscription-btn {
-        display: inline-block;
-    }
+  .subscription-btn {
+    display: inline-block;
+  }
 }
-
 
 // .btn_contact-form {
 //     display: block;
@@ -70,5 +69,5 @@
 //             background-color: var(--acent-color);
 //             color: var(--primary-white-color);
 //             cursor: pointer;
-//         }    
+//         }
 // }
