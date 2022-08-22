@@ -1,7 +1,7 @@
 .modal {
   position: absolute;
   width: 450px;
-  height: 609px;
+  min-height: 609px;
   left: 50%;
   top: 50%;
   padding: 40px;
@@ -16,6 +16,11 @@
   }
 }
 
+@media screen and (max-width: 479px) {
+  .modal {
+    width: calc(100% - 30px);
+  }
+}
 .modal-close-btn {
   position: absolute;
   top: 8px;

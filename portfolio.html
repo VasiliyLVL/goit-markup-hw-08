@@ -124,17 +124,17 @@
     <main>
       <section class="section">
         <div class="container">
-          <h1 class="section__title visually-hidden">Примеры наших работ</h1>
+          <h1 class="section__title visually-hidden">Приклади наших робіт</h1>
           <!-- Блок кнопок -->
           <ul class="button-list">
             <li class="button-list__item">
-              <button class="button-list__btn" type="button">Все</button>
+              <button class="button-list__btn" type="button">Усі</button>
             </li>
             <li class="button-list__item">
-              <button class="button-list__btn" type="button">Веб-сайты</button>
+              <button class="button-list__btn" type="button">Веб-сайти</button>
             </li>
             <li class="button-list__item">
-              <button class="button-list__btn" type="button">Приложения</button>
+              <button class="button-list__btn" type="button">Додатки</button>
             </li>
             <li class="button-list__item">
               <button class="button-list__btn" type="button">Дизайн</button>
@@ -148,13 +148,36 @@
             <li class="examples-list__item">
               <a href="#" class="examples-list__link">
                 <div class="examples-list__thumb">
-                  <img src="./images/portf1.jpg" alt="Технокряк" width="368" />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/workMobile1.jpg    1x,
+                        ./images/workMobile1@2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/workDesktop1.jpg    1x,
+                        ./images/workDesktop1@2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/workTablet1.jpg    1x,
+                        ./images/workTablet1@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <img src="./images/workTablet1.jpg" alt="Технокряк" />
+                  </picture>
                   <div class="examples-list__overlay">
                     <p class="examples-list__overlay-text">
-                      Ресурс предлагает комплексные предложения с разным уровнем
-                      функционала и сервисов. Все это позволит посетителю
-                      получить исчерпывающие сведения о компании или частном
-                      лице.
+                      Ресурс пропонує комплексні пропозиції з різним рівнем
+                      функціоналу та сервісів. Все це дозволить відвідувачу
+                      отримати вичерпні відомості про компанію чи приватну
+                      особу.
                     </p>
                   </div>
                 </div>
@@ -167,17 +190,36 @@
             <li class="examples-list__item">
               <a href="#" class="examples-list__link">
                 <div class="examples-list__thumb">
-                  <img
-                    src="./images/portf2.jpg"
-                    alt="Постер New Orlean vs Golden Star"
-                    width="368"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/workMobile2.jpg    1x,
+                        ./images/workMobile2@2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/workDesktop2.jpg    1x,
+                        ./images/workDesktop2@2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/workTablet2.jpg    1x,
+                        ./images/workTablet2@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <img src="./images/workTablet1.jpg" alt="Технокряк" />
+                  </picture>
                   <div class="examples-list__overlay">
                     <p class="examples-list__overlay-text">
-                      Ресурс предлагает комплексные предложения с разным уровнем
-                      функционала и сервисов. Все это позволит посетителю
-                      получить исчерпывающие сведения о компании или частном
-                      лице.
+                      Ресурс пропонує комплексні пропозиції з різним рівнем
+                      функціоналу та сервісів. Все це дозволить відвідувачу
+                      отримати вичерпні відомості про компанію чи приватну
+                      особу.
                     </p>
                   </div>
                 </div>
@@ -192,45 +234,83 @@
             <li class="examples-list__item">
               <a href="#" class="examples-list__link">
                 <div class="examples-list__thumb">
-                  <img
-                    src="./images/portf3.jpg"
-                    alt="Ресторан Seafood"
-                    width="368"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/workMobile3.jpg    1x,
+                        ./images/workMobile3@2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/workDesktop3.jpg    1x,
+                        ./images/workDesktop3@2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/workTablet3.jpg    1x,
+                        ./images/workTablet3@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <img src="./images/workTablet1.jpg" alt="Технокряк" />
+                  </picture>
                   <div class="examples-list__overlay">
                     <p class="examples-list__overlay-text">
-                      Ресурс предлагает комплексные предложения с разным уровнем
-                      функционала и сервисов. Все это позволит посетителю
-                      получить исчерпывающие сведения о компании или частном
-                      лице.
+                      Ресурс пропонує комплексні пропозиції з різним рівнем
+                      функціоналу та сервісів. Все це дозволить відвідувачу
+                      отримати вичерпні відомості про компанію чи приватну
+                      особу.
                     </p>
                   </div>
                 </div>
                 <div class="examples-list__description">
                   <h2 class="examples-list__title">Ресторан Seafood</h2>
-                  <p class="examples-list__text">Приложение</p>
+                  <p class="examples-list__text">Додаток</p>
                 </div>
               </a>
             </li>
             <li class="examples-list__item">
               <a href="" class="examples-list__link">
                 <div class="examples-list__thumb">
-                  <img
-                    src="./images/portf4.jpg"
-                    alt="Проект Prime"
-                    width="368"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/workMobile4.jpg    1x,
+                        ./images/workMobile4@2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/workDesktop4.jpg    1x,
+                        ./images/workDesktop4@2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/workTablet4.jpg    1x,
+                        ./images/workTablet4@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <img src="./images/workTablet1.jpg" alt="Технокряк" />
+                  </picture>
                   <div class="examples-list__overlay">
                     <p class="examples-list__overlay-text">
-                      Ресурс предлагает комплексные предложения с разным уровнем
-                      функционала и сервисов. Все это позволит посетителю
-                      получить исчерпывающие сведения о компании или частном
-                      лице.
+                      Ресурс пропонує комплексні пропозиції з різним рівнем
+                      функціоналу та сервісів. Все це дозволить відвідувачу
+                      отримати вичерпні відомості про компанію чи приватну
+                      особу.
                     </p>
                   </div>
                 </div>
                 <div class="examples-list__description">
-                  <h2 class="examples-list__title">Проект Prime</h2>
+                  <h2 class="examples-list__title">Проєкт Prime</h2>
                   <p class="examples-list__text">Маркетинг</p>
                 </div>
               </a>
@@ -238,40 +318,78 @@
             <li class="examples-list__item">
               <a href="" class="examples-list__link">
                 <div class="examples-list__thumb">
-                  <img
-                    src="./images/portf5.jpg"
-                    alt="Проект Boxes"
-                    width="368"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/workMobile5.jpg    1x,
+                        ./images/workMobile5@2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/workDesktop5.jpg    1x,
+                        ./images/workDesktop5@2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/workTablet5.jpg    1x,
+                        ./images/workTablet5@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <img src="./images/workTablet1.jpg" alt="Технокряк" />
+                  </picture>
                   <div class="examples-list__overlay">
                     <p class="examples-list__overlay-text">
-                      Ресурс предлагает комплексные предложения с разным уровнем
-                      функционала и сервисов. Все это позволит посетителю
-                      получить исчерпывающие сведения о компании или частном
-                      лице.
+                      Ресурс пропонує комплексні пропозиції з різним рівнем
+                      функціоналу та сервісів. Все це дозволить відвідувачу
+                      отримати вичерпні відомості про компанію чи приватну
+                      особу.
                     </p>
                   </div>
                 </div>
                 <div class="examples-list__description">
-                  <h2 class="examples-list__title">Проект Boxes</h2>
-                  <p class="examples-list__text">Приложение</p>
+                  <h2 class="examples-list__title">Проєкт Boxes</h2>
+                  <p class="examples-list__text">Додаток</p>
                 </div>
               </a>
             </li>
             <li class="examples-list__item">
               <a href="" class="examples-list__link">
                 <div class="examples-list__thumb">
-                  <img
-                    src="./images/portf6.jpg"
-                    alt="Inspiration has no Borders"
-                    width="368"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/workMobile6.jpg    1x,
+                        ./images/workMobile6@2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/workDesktop6.jpg    1x,
+                        ./images/workDesktop6@2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/workTablet6.jpg    1x,
+                        ./images/workTablet6@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <img src="./images/workTablet1.jpg" alt="Технокряк" />
+                  </picture>
                   <div class="examples-list__overlay">
                     <p class="examples-list__overlay-text">
-                      Ресурс предлагает комплексные предложения с разным уровнем
-                      функционала и сервисов. Все это позволит посетителю
-                      получить исчерпывающие сведения о компании или частном
-                      лице.
+                      Ресурс пропонує комплексні пропозиції з різним рівнем
+                      функціоналу та сервісів. Все це дозволить відвідувачу
+                      отримати вичерпні відомості про компанію чи приватну
+                      особу.
                     </p>
                   </div>
                 </div>
@@ -286,22 +404,41 @@
             <li class="examples-list__item">
               <a href="" class="examples-list__link">
                 <div class="examples-list__thumb">
-                  <img
-                    src="./images/portf7.jpg"
-                    alt="Издание Limited Edition"
-                    width="368"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/workMobile7.jpg    1x,
+                        ./images/workMobile7@2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/workDesktop7.jpg    1x,
+                        ./images/workDesktop7@2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/workTablet7.jpg    1x,
+                        ./images/workTablet7@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <img src="./images/workTablet1.jpg" alt="Технокряк" />
+                  </picture>
                   <div class="examples-list__overlay">
                     <p class="examples-list__overlay-text">
-                      Ресурс предлагает комплексные предложения с разным уровнем
-                      функционала и сервисов. Все это позволит посетителю
-                      получить исчерпывающие сведения о компании или частном
-                      лице.
+                      Ресурс пропонує комплексні пропозиції з різним рівнем
+                      функціоналу та сервісів. Все це дозволить відвідувачу
+                      отримати вичерпні відомості про компанію чи приватну
+                      особу.
                     </p>
                   </div>
                 </div>
                 <div class="examples-list__description">
-                  <h2 class="examples-list__title">Издание Limited Edition</h2>
+                  <h2 class="examples-list__title">Видання Limited Edition</h2>
                   <p class="examples-list__text">Дизайн</p>
                 </div>
               </a>
@@ -309,18 +446,41 @@
             <li class="examples-list__item">
               <a href="" class="examples-list__link">
                 <div class="examples-list__thumb">
-                  <img src="./images/portf8.jpg" alt="Проект LAB" width="368" />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/workMobile8.jpg    1x,
+                        ./images/workMobile8@2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/workDesktop8.jpg    1x,
+                        ./images/workDesktop8@2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/workTablet8.jpg    1x,
+                        ./images/workTablet8@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <img src="./images/workTablet1.jpg" alt="Технокряк" />
+                  </picture>
                   <div class="examples-list__overlay">
                     <p class="examples-list__overlay-text">
-                      Ресурс предлагает комплексные предложения с разным уровнем
-                      функционала и сервисов. Все это позволит посетителю
-                      получить исчерпывающие сведения о компании или частном
-                      лице.
+                      Ресурс пропонує комплексні пропозиції з різним рівнем
+                      функціоналу та сервісів. Все це дозволить відвідувачу
+                      отримати вичерпні відомості про компанію чи приватну
+                      особу.
                     </p>
                   </div>
                 </div>
                 <div class="examples-list__description">
-                  <h2 class="examples-list__title">Проект LAB</h2>
+                  <h2 class="examples-list__title">Проєкт LAB</h2>
                   <p class="examples-list__text">Маркетинг</p>
                 </div>
               </a>
@@ -328,23 +488,42 @@
             <li class="examples-list__item">
               <a href="" class="examples-list__link">
                 <div class="examples-list__thumb">
-                  <img
-                    src="./images/portf9.jpg"
-                    alt="Growing Business"
-                    width="368"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/workMobile9.jpg    1x,
+                        ./images/workMobile9@2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/workDesktop9.jpg    1x,
+                        ./images/workDesktop9@2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/workTablet9.jpg    1x,
+                        ./images/workTablet9@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <img src="./images/workTablet1.jpg" alt="Технокряк" />
+                  </picture>
                   <div class="examples-list__overlay">
                     <p class="examples-list__overlay-text">
-                      Ресурс предлагает комплексные предложения с разным уровнем
-                      функционала и сервисов. Все это позволит посетителю
-                      получить исчерпывающие сведения о компании или частном
-                      лице.
+                      Ресурс пропонує комплексні пропозиції з різним рівнем
+                      функціоналу та сервісів. Все це дозволить відвідувачу
+                      отримати вичерпні відомості про компанію чи приватну
+                      особу.
                     </p>
                   </div>
                 </div>
                 <div class="examples-list__description">
                   <h2 class="examples-list__title">Growing Business</h2>
-                  <p class="examples-list__text">Приложение</p>
+                  <p class="examples-list__text">Додаток</p>
                 </div>
               </a>
             </li>
